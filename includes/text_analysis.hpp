@@ -14,9 +14,7 @@ class TextAnalysis {
   size_t countWord(const std::string&);       // IMPLEMENT BELOW
   size_t countTwoWords(const std::string&,
                        const std::string&);  // IMPLEMENT BELOW
-  void sanitizeVector(std::vector<size_t>& v) const;
   void read_text(std::istream&, const std::string&);  // ALREADY DONE
-  std::vector<size_t> findVector(const std::string& s);
 
  private:
   std::unordered_map<std::string, std::vector<size_t> >
